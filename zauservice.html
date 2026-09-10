@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,8 +29,9 @@
         <i class="fa-solid fa-leaf text-emerald-600"></i> ZAUSERVICE
       </a>
       <div class="hidden md:flex space-x-6 font-medium text-gray-600">
-        <a href="#services" class="hover:text-emerald-700 transition">Services</a>
         <a href="#about" class="hover:text-emerald-700 transition">About Us</a>
+        <a href="#services" class="hover:text-emerald-700 transition">Services</a>
+        <a href="#gallery" class="hover:text-emerald-700 transition">Gallery</a>
         <a href="#reviews" class="hover:text-emerald-700 transition">Reviews</a>
         <a href="#contact" class="hover:text-emerald-700 transition">Contact</a>
       </div>
@@ -75,60 +76,192 @@
     </div>
   </header>
 
-  <!-- SERVICES SECTION -->
-  <section id="services" class="py-16 px-4 max-w-7xl mx-auto">
-    <div class="text-center max-w-2xl mx-auto mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-2">Our Core Services</h2>
-      <p class="text-gray-600">Reliable, high-quality garden transformation and property upkeep at competitive prices.</p>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Gardening & Landscaping -->
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
-          <i class="fa-solid fa-seedling"></i>
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="py-16 px-4 max-w-7xl mx-auto scroll-mt-20">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-emerald-700 font-bold text-sm uppercase tracking-wider">About Zauservice</span>
+        <h2 class="text-3xl font-bold text-gray-900 mt-2 mb-4">Transforming Overgrown & Neglected Gardens Across Essex</h2>
+        <p class="text-gray-600 mb-4 leading-relaxed">
+          At Zauservice, led by Alex and our experienced team in Harwich, we specialize in restoring outdoor spaces to clean, usable, and fresh condition. Whether your garden is heavily overgrown with ivy or you require full hedge reductions and tree removal, we deliver reliable and high-quality transformations.
+        </p>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          We pride ourselves on prompt response times, respectful customer service, and flexible scheduling at short notice.
+        </p>
+        <div class="grid grid-cols-2 gap-4 border-t border-gray-100 pt-6">
+          <div>
+            <span class="text-3xl font-extrabold text-emerald-700">4.9 ★</span>
+            <p class="text-xs text-gray-500 mt-1">98+ Verified Google Reviews</p>
+          </div>
+          <div>
+            <span class="text-3xl font-extrabold text-emerald-700">100%</span>
+            <p class="text-xs text-gray-500 mt-1">Free Quotes & Licensed Clearance</p>
+          </div>
         </div>
-        <h3 class="text-xl font-bold mb-2">Gardening & Landscaping</h3>
-        <p class="text-gray-600 text-sm mb-4">Complete garden maintenance, turf installation, lawn mowing, fencing, ivy removal, tree cutting, and driveways.</p>
-        <ul class="text-xs text-gray-500 space-y-1">
-          <li>• Lawn care & hedge reduction</li>
-          <li>• Fencing & paving installation</li>
-          <li>• Garden redesigns</li>
-        </ul>
       </div>
-
-      <!-- Exterior Cleaning -->
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-        <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
-          <i class="fa-solid fa-spray-can"></i>
+      <div class="relative flex justify-center">
+        <div class="rounded-2xl overflow-hidden shadow-xl border-4 border-white max-w-md w-full">
+          <img src="images/image_427ded.jpg" alt="Zauservice Team Member at Work" class="w-full h-[400px] object-cover" />
         </div>
-        <h3 class="text-xl font-bold mb-2">Exterior Cleaning</h3>
-        <p class="text-gray-600 text-sm mb-4">High-pressure washing and exterior maintenance to keep your driveways, patios, and roofs looking brand new.</p>
-        <ul class="text-xs text-gray-500 space-y-1">
-          <li>• Power / pressure washing</li>
-          <li>• Gutter & roof clearance</li>
-          <li>• Window & glass cleaning</li>
-        </ul>
-      </div>
-
-      <!-- Waste & Clearance -->
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-        <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
-          <i class="fa-solid fa-trash-can"></i>
-        </div>
-        <h3 class="text-xl font-bold mb-2">Waste & Clear-outs</h3>
-        <p class="text-gray-600 text-sm mb-4">Fast and responsible removal of garden debris, house clearance, furniture, and general rubbish.</p>
-        <ul class="text-xs text-gray-500 space-y-1">
-          <li>• Garden waste & debris removal</li>
-          <li>• House, garage & shed clean-outs</li>
-          <li>• Furniture & appliance disposal</li>
-        </ul>
       </div>
     </div>
   </section>
 
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-16 px-4 bg-white scroll-mt-20">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">Our Core Services</h2>
+        <p class="text-gray-600">Reliable, high-quality garden transformation and property upkeep at competitive prices.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition">
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Gardening & Landscaping</h3>
+          <p class="text-gray-600 text-sm mb-4">Complete garden maintenance, turf installation, lawn mowing, fencing, ivy removal, tree cutting, and driveways.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition">
+          <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+            <i class="fa-solid fa-spray-can"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Exterior Cleaning</h3>
+          <p class="text-gray-600 text-sm mb-4">High-pressure washing and exterior maintenance to keep your driveways, patios, and roofs looking brand new.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition">
+          <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+            <i class="fa-solid fa-trash-can"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Waste & Clear-outs</h3>
+          <p class="text-gray-600 text-sm mb-4">Fast and responsible removal of garden debris, house clearance, furniture, and general rubbish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK SHOWCASE CAROUSEL SECTION -->
+  <section id="gallery" class="py-16 px-4 max-w-5xl mx-auto scroll-mt-20">
+    <div class="text-center mb-8">
+      <span class="text-emerald-700 font-bold text-sm uppercase">Recent Projects</span>
+      <h2 class="text-3xl font-bold text-gray-900 mt-1">Our Recent Work</h2>
+      <p class="text-gray-600 text-sm mt-2">Swipe left or right on mobile to view projects.</p>
+    </div>
+
+    <!-- Carousel Container -->
+    <div id="carousel-container" class="relative bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden touch-pan-y select-none">
+      
+      <!-- Slide Wrapper -->
+      <div id="carousel-slides" class="relative min-h-[460px] sm:min-h-[400px]">
+        
+        <!-- Slide 1 -->
+        <div class="carousel-slide active transition-opacity duration-500 opacity-100 absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_427e32.jpg" alt="Patio Paving & Modern Fencing" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #1</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Patio & Slatted Fencing</h3>
+            <p class="text-gray-600 text-sm mb-4">Modern sandstone patio installation paired with contemporary slatted timber screening and fresh lawn turfing.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Landscaping</span>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-slide transition-opacity duration-500 opacity-0 pointer-events-none absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_427e0e.jpg" alt="Raised Sleeper Flower Beds & Slate Chips" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #2</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Raised Timber Sleepers</h3>
+            <p class="text-gray-600 text-sm mb-4">Custom timber sleeper retaining walls filled with decorative slate chippings alongside pristine re-turfing.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Garden Design</span>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-slide transition-opacity duration-500 opacity-0 pointer-events-none absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_427e4e.jpg" alt="Lawn Mowing & Waste Bagging" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #3</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Lawn Care & Waste Removal</h3>
+            <p class="text-gray-600 text-sm mb-4">Comprehensive lawn mowing, edging, and full green-waste bagging and responsible offsite removal.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Maintenance</span>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-slide transition-opacity duration-500 opacity-0 pointer-events-none absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_427e68.jpg" alt="Decorative White Cobbles & Feature Planting" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #4</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Decorative Gravel & Feature Trees</h3>
+            <p class="text-gray-600 text-sm mb-4">Clean white cobble bed layout with potted olive tree focal point, bounded by neatly trimmed hedging.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Feature Gardens</span>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-slide transition-opacity duration-500 opacity-0 pointer-events-none absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_42d00e.jpg" alt="High Reach Ivy Clearance" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #5</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Wall Ivy & Vegetation Cutback</h3>
+            <p class="text-gray-600 text-sm mb-4">Specialist removal of thick overgrown ivy from elevated brick walls, restoring structural safety and cleanliness.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Clearance</span>
+          </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="carousel-slide transition-opacity duration-500 opacity-0 pointer-events-none absolute inset-0 flex flex-col md:flex-row">
+          <div class="md:w-3/5 bg-gray-100 overflow-hidden">
+            <img src="images/image_427e2a.jpg" alt="Timber Decking & Turfed Garden" class="w-full h-64 md:h-full object-cover" />
+          </div>
+          <div class="md:w-2/5 p-8 flex flex-col justify-center bg-white">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Project #6</span>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Timber Decking Installation</h3>
+            <p class="text-gray-600 text-sm mb-4">Spacious timber decking platform construction integrated with fully levelling and re-turfing long rear garden.</p>
+            <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full w-max">Timber Work</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left Arrow Button -->
+      <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 w-10 h-10 rounded-full flex items-center justify-center shadow-md transition z-10">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <!-- Right Arrow Button -->
+      <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 w-10 h-10 rounded-full flex items-center justify-center shadow-md transition z-10">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="flex justify-center gap-2 mt-4" id="carousel-dots">
+      <button onclick="goToSlide(0)" class="dot-btn w-3 h-3 rounded-full bg-emerald-600 transition-all"></button>
+      <button onclick="goToSlide(1)" class="dot-btn w-3 h-3 rounded-full bg-gray-300 transition-all"></button>
+      <button onclick="goToSlide(2)" class="dot-btn w-3 h-3 rounded-full bg-gray-300 transition-all"></button>
+      <button onclick="goToSlide(3)" class="dot-btn w-3 h-3 rounded-full bg-gray-300 transition-all"></button>
+      <button onclick="goToSlide(4)" class="dot-btn w-3 h-3 rounded-full bg-gray-300 transition-all"></button>
+      <button onclick="goToSlide(5)" class="dot-btn w-3 h-3 rounded-full bg-gray-300 transition-all"></button>
+    </div>
+  </section>
+
   <!-- REVIEWS SECTION -->
-  <section id="reviews" class="bg-emerald-50 py-16 px-4">
+  <section id="reviews" class="bg-emerald-50 py-16 px-4 scroll-mt-20">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
         <span class="text-emerald-700 font-bold text-sm uppercase">Customer Feedback</span>
@@ -164,7 +297,7 @@
   </section>
 
   <!-- CONTACT FORM & FOOTER -->
-  <section id="contact" class="py-16 px-4 max-w-7xl mx-auto">
+  <section id="contact" class="py-16 px-4 max-w-7xl mx-auto scroll-mt-20">
     <div class="grid md:grid-cols-2 gap-12">
       <div>
         <h2 class="text-3xl font-bold text-gray-900 mb-4">Get In Touch For A Free Quote</h2>
@@ -230,6 +363,75 @@
   <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm border-t border-gray-800">
     <p>© ZAUSERVICE LTD. Registered in England & Wales (Company No. 16354166).</p>
   </footer>
+
+  <!-- CAROUSEL & TOUCH SWIPE SCRIPT -->
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.dot-btn');
+    const container = document.getElementById('carousel-container');
+
+    function updateCarousel() {
+      slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+          slide.classList.remove('opacity-0', 'pointer-events-none');
+          slide.classList.add('opacity-100', 'active');
+        } else {
+          slide.classList.remove('opacity-100', 'active');
+          slide.classList.add('opacity-0', 'pointer-events-none');
+        }
+      });
+
+      dots.forEach((dot, index) => {
+        if (index === currentSlide) {
+          dot.classList.remove('bg-gray-300');
+          dot.classList.add('bg-emerald-600');
+        } else {
+          dot.classList.remove('bg-emerald-600');
+          dot.classList.add('bg-gray-300');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      updateCarousel();
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      updateCarousel();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+    }
+
+    // Touch Swipe Functionality
+    let startX = 0;
+    let endX = 0;
+
+    container.addEventListener('touchstart', (e) => {
+      startX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    container.addEventListener('touchend', (e) => {
+      endX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+      const swipeDistance = endX - startX;
+      const minSwipeDistance = 40; // minimum pixels to trigger swipe
+
+      if (swipeDistance < -minSwipeDistance) {
+        nextSlide(); // Swipe Left -> Next Slide
+      } else if (swipeDistance > minSwipeDistance) {
+        prevSlide(); // Swipe Right -> Previous Slide
+      }
+    }
+  </script>
 
 </body>
 </html>
